@@ -1,0 +1,179 @@
+#title {
+  text-align: left;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+}
+
+
+p {
+  color: #8f8f8f;
+  font-weight: bold;
+}
+.big-heading{
+  font-family: 'Montserrat', serif;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin: auto auto -12rem 50px;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+
+}
+.feature-title{
+font-weight: bold;
+
+}
+
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+/*sections*/
+.colored-section{
+  background-color: #f85959;
+  color: #fff;
+
+}
+
+.white-section{
+background-color: #fff;
+
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 10% 3% 5% 0;
+}
+
+.feature-box {
+
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #f85959;
+}
+
+/*testimonial part */
+#testimonials {
+
+  background-color: #ef8172;
+
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+   margin:20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+
+}
+
+.pricing-text{
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 1028px) {
+
+  /* max genişlik 1028 yani desktop büyüklüğünde olmadığı sürece bu kodun içindekileri yap demek. yani resim statik olsun ve dönmesin. ve text merkezde olsun*/
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  padding: 7% 15%;
+}
+.down{
+  margin: 5% 3% 5% 0;
+
+}
+
+.section-heading{
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+#footer{
+padding: 5%;
+
+}
+.logo-foot{
+  margin: 20px 10px;
+}
